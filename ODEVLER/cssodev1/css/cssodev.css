@@ -1,0 +1,27 @@
+h1{ 
+    color: red;
+}
+h2{
+    color: purple;
+}
+
+#anasayfa-ürünler{
+    color: rgb(10, 1, 1);
+    list-style-position: inside
+}
+
+h3{
+    color: sandybrown;
+}
+.boyutlandirma img {
+    max-width: 250px;
+    height: 300px;
+    }
+.boyutlandirma p{
+    color:black;
+    font-size: 20px;
+}
+#content_aboutus p{
+    font-size: 20px;
+    font-style: normal;
+}
