@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cssodev2.css">
+
+</head>
+<body>
+   <!-- TÜM YAPIYI KAPLAYAN CONTAINERIMIZ -->
+    <div class="container">
+
+        <!--  Header başlangıç  sayfamızın logosu ve dahili arama motoru gibi temel öğelerini içerir. --> 
+        <header>
+            <div align="center">
+            <img src="img/google.jpg" alt="GoogleLogo">
+        </div>
+        </header>
+        <center>
+
+            <!-- form içine table satırı koyarak ilk  satırda istenenler yapıldı -->
+         <form action="www.google.com/search">
+        <table class="table1">
+            <tr>
+                <td align="center">Search the web using Google! <br>
+                <input type="text" id="arama" name="arama" value="" maxlength="100" size="40" > <br>
+                <input type="submit" value="Google Search" >
+                <input type="submit" value="I'm feeling lucky">
+
+                </td>
+            </tr>
+        </table>
+        </form>
+    </center>
+          <!-- 2. Satır için yeni bir table  olusturuldu ve içerisine 3 sütun konuldu -->
+         <table class="table2">
+             <tr div align="center">
+                 <td id="ilkSütun">Special Serches <br>
+                     <a href="#">Stanford Seach</a> <br>
+                     <a href="#">Linux Search</a>
+
+                 </td>
+                 <td id="ikinciSütun"><a href="">Help</a> <br>
+                    <a href="#">Abougt Google!</a> <br>
+                    <a href="#">Company Info</a> <br>
+                    <a href="#">Google!Logos</a>
+                    <a href="#">Linux Search</a>
+                </td>
+                <td id="ücüncüSütun">Get Google! <br>
+                    updates montly:
+                    for <br>
+                    <input type="text" name="emailaddr" value="your e-mail"> <br>
+                    <input type="submit" name="SubmitAction" value="Subscribe">
+                    <a href="#">Archive</a>
+                </td>
+             </tr>
+         </table>
+
+<!-- Footer Başlangıç websitenin yapım tarihi ve telif haklarının belirtildiği alandır.-->
+          <footer id="footer">   
+               <div align="center">
+                   <p>Copyright &copy;1998 Google Inc.</p>
+               </div>
+          </footer>
+    </div>
+    
+</body>
+</html>
