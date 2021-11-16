@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+
+}
+
+
+body{
+     display: flex;
+     flex-direction: column;
+     
+    
+}
+
+.secenekler{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 13px;     
+}
+.secenekler button{
+    color: white;
+    background-color:#4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+    padding: 7px 8px;
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 24px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.temizle{
+    clear: both;
+}
+ 
+.logo{
+    margin-top: 150px;
+    text-align: center;
+    display: block;
+}
+.searchbar{
+    margin:0 auto;
+    width:580px;
+    display: block;
+    border-radius:30px;
+    height: 40px;
+    border:1px solid #dcdcdc;
+}
+.searchbar img{
+    width: 35px;
+    position: absolute;
+    right: 680px;
+
+}
+.searchbutton{
+display: none;
+}
+.searchbuttons{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.searchbuttons button{
+    margin: 0px 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px 20px;
+    
+}
+
+
+
+.footer1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    padding: 7px;
+    background-color:  #f2f2f2;
+}
+.footer2{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    
+    padding: 7px;
+    background-color:  #f2f2f2;
+}
+

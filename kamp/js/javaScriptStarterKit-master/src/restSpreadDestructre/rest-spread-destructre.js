@@ -38,7 +38,7 @@ let populations =[10000,20000,30000,[40000,10000]]
 
 console.log(small)
 console.log(medium)
-console.log(high)
+console.log(high)   
 console.log(veryhigh)
 console.log(maximum)
  

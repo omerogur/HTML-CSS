@@ -70,7 +70,7 @@ arkadasSayilar(220,284)
 
 
     //1 den 1000e kadar asal sayılar
-
+      
     for (let i = 1000; i > 1; i--) {
         let asal=true;
         for (let k = 2; k < i; k++) {

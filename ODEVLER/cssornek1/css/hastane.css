@@ -45,7 +45,7 @@ nav a{
     width: 380px;
     height: 150px;
     text-align: center;
-    line-height: 150px;
+    line-height: px;
     background-color: rgb(0, 132, 255);
     color: aliceblue;    
     font-size: 1.3em;

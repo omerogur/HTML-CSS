@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+    </style>
+       
+       <form method="post">
+           <select name="ders" id="">
+           <option value="HTML">html</option>
+           <option value="css">css</option>         // liste içinden seçme
+           <option value="js">js</option>
+           <option value="java">java</option>
+        </select> <br><br>
+
+
+        <input list="liste" name="secilenders">
+         <datalist id="liste">
+         <option value="HTML"></option>                    // liste içinden akıllı seçme harfe göre sıralama
+           <option value="css"></option>
+           <option value="js"></option>
+           <option value="java"></option>
+        </datalist>
+
+         <select name="kurslar" id="">
+         <optgroup label="PROGRAMLAMA DERSLERİ">
+            <option value="HTML">html</option> 
+            <option value="css">css</option>                grup seçimi
+            <option value="js">js</option>
+            <option value="java">java</option>
+         </optgroup>
+        </select>
+
+        <textarea name="mesaj" id="" cols="30" rows="10"></textarea>
+        
+       </form>
+    
+</body>
+</html> 
