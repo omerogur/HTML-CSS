@@ -11,5 +11,4 @@ Sayfa Yenilendiğinde LocalStorage da olan verileri sayfaya yükleyen fonksiyon 
 
 
 
-<img src = "img/todolist.png">
-
+![alt text](https://www.hizliresim.com/sncxf8a)
