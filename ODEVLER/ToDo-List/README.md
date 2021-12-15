@@ -10,5 +10,9 @@ Girilen inputları  LocalStorage  kaydetme ve silme fonksiyonları yazıldı.
 Sayfa Yenilendiğinde LocalStorage da olan verileri sayfaya yükleyen fonksiyon yazıldı.
 
 
+<br>
+
+
+
 
 <img src = "img/todolist.png">
