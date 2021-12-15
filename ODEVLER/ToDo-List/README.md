@@ -11,4 +11,4 @@ Sayfa Yenilendiğinde LocalStorage da olan verileri sayfaya yükleyen fonksiyon 
 
 
 
-[url=https://www.hizliresim.com/sncxf8a][img]https://i.hizliresim.com/sncxf8a.png[/img][/url]
+https://www.hizliresim.com/sncxf8a
